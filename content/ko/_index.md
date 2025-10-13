@@ -2,21 +2,58 @@
 title: "최재완 Archive"
 date: 2025-10-13
 type: landing
-layouts: landing
+
 sections:
-  # ===== Hero Carousel =====
-  - block: hero-carousel
+  - block: slider
     content:
       slides:
-        - title: "최재완 Archive"
-          image: "welcome.jpg"
-          text: "**최재완**의 **대학생**으로서의 활동 기록부터 **성공적인 앱** 개발까지의 성장과정을 담은 페이지 입니다."
-        - title: "Research & Projects"
-          image: "research.jpg"
-          text: "현재 진행 중인 프로젝트와 논문"
-        - title: "Contact"
-          image: "contact.jpg"
-          text: "협업 제안은 언제든 환영합니다!"
+      - title: 👋 최재완 Archive 👋
+        content: "**최재완**의 **대학생**으로서의 활동 기록부터 **성공적인 앱** 개발까지의 성장과정을 담은 페이지 입니다."
+        align: center
+        background:
+          image:
+            filename: coders.jpg
+            filters:
+              brightness: 0.7
+          position: right
+          color: '#666'
+      - title: Lunch & Learn ☕️
+        content: 'Share your knowledge with the group and explore exciting new topics together!'
+        align: left
+        background:
+          image:
+            filename: contact.jpg
+            filters:
+              brightness: 0.7
+          position: center
+          color: '#555'
+      - title: World-Class Semiconductor Lab
+        content: 'Just opened last month!'
+        align: right
+        background:
+          image:
+            filename: welcome.jpg
+            filters:
+              brightness: 0.5
+          position: center
+          color: '#333'
+        link:
+          icon: graduation-cap
+          icon_pack: fas
+          text: Join Us
+          url: ../contact/
+    
+    design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
+      slide_height: ''
+      is_fullscreen: true
+      # Automatically transition through slides?
+      loop: true
+      # Duration of transition between slides (in ms)
+      interval: 5000
+      
+      
+
 
   # ===== Latest News Collection =====
   - block: collection
