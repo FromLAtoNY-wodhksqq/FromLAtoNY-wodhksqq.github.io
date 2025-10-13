@@ -1,0 +1,30 @@
+<section id="hero-carousel" class="relative overflow-hidden">
+  <div class="carousel-container relative">
+    <div class="slides">
+      {{ range .content.slides }}
+      <div class="slide relative">
+        <img src="{{ (printf "media/%s" .image) | relURL }}" class="w-full h-screen object-cover opacity-80" />
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black/40">
+          <h1 class="text-5xl font-bold mb-4">{{ .title }}</h1>
+          <p class="text-xl max-w-2xl">{{ .text | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <script>
+    let current = 0;
+    const slides = document.querySelectorAll(".slide");
+    function showSlide(i) {
+      slides.forEach((s, idx) => {
+        s.style.display = idx === i ? "block" : "none";
+      });
+    }
+    showSlide(current);
+    setInterval(() => {
+      current = (current + 1) % slides.length;
+      showSlide(current);
+    }, 4000);
+  </script>
+</section>
