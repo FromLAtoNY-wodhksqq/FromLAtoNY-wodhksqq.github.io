@@ -1,16 +1,16 @@
 <section id="hero-carousel" class="relative overflow-hidden">
   <div class="carousel-container relative">
     <div class="slides">
-      {{ range .content.slides }}
-      <div class="slide relative w-full h-screen hidden">
-        <img src="{{ (printf "media/%s" .image) | relURL }}" class="w-full h-full object-cover opacity-80" />
-        <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black/40 px-4">
-          <h1 class="text-5xl font-bold mb-4">{{ .title }}</h1>
-          <p class="text-xl max-w-2xl">{{ .text | markdownify }}</p>
-        </div>
-      </div>
-      {{ end }}
+  {{ range $index, . := .content.slides }}
+  <div class="slide relative w-full h-screen {{ if eq $index 0 }}block{{ else }}hidden{{ end }}">
+    <img src="{{ printf "/media/%s" .image }}" class="w-full h-full object-cover opacity-80" />
+    <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black/40 px-4">
+      <h1 class="text-5xl font-bold mb-4">{{ .title }}</h1>
+      <p class="text-xl max-w-2xl">{{ .text | markdownify }}</p>
     </div>
+  </div>
+  {{ end }}
+</div>
 
     <!-- 좌우 화살표 -->
     <button id="prev-slide" class="absolute left-4 top-1/2 -translate-y-1/2 text-white text-3xl font-bold bg-black/40 p-2 rounded hover:bg-black/60">‹</button>
@@ -66,3 +66,5 @@
   });
   </script>
 </section>
+
+
