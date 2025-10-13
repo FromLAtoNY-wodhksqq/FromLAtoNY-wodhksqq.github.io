@@ -5,7 +5,7 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: profile
+  - block: people
     content:
       title: welcome
       # Choose which groups/teams of users to display.
@@ -21,7 +21,7 @@ sections:
       sort_by: Params.last_name
       sort_ascending: true
     design:
-      show_interests: false
+      show_interests: true
       show_role: true
       show_social: true
 ---
