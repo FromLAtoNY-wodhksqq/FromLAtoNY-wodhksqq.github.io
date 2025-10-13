@@ -2,35 +2,67 @@
   <div class="carousel-container relative">
     <div class="slides">
       {{ range .content.slides }}
-      <div class="slide relative">
-        <img src="{{ (printf "media/%s" .image) | relURL }}" class="w-full h-screen object-cover opacity-80" />
-        <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black/40">
+      <div class="slide relative w-full h-screen hidden">
+        <img src="{{ (printf "media/%s" .image) | relURL }}" class="w-full h-full object-cover opacity-80" />
+        <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white bg-black/40 px-4">
           <h1 class="text-5xl font-bold mb-4">{{ .title }}</h1>
           <p class="text-xl max-w-2xl">{{ .text | markdownify }}</p>
         </div>
       </div>
       {{ end }}
     </div>
+
+    <!-- 좌우 화살표 -->
+    <button id="prev-slide" class="absolute left-4 top-1/2 -translate-y-1/2 text-white text-3xl font-bold bg-black/40 p-2 rounded hover:bg-black/60">‹</button>
+    <button id="next-slide" class="absolute right-4 top-1/2 -translate-y-1/2 text-white text-3xl font-bold bg-black/40 p-2 rounded hover:bg-black/60">›</button>
+
+    <!-- 점 네비게이션 -->
+    <div id="slide-dots" class="absolute bottom-8 left-1/2 -translate-x-1/2 flex space-x-2">
+      {{ range $index, $_ := .content.slides }}
+      <span class="dot w-3 h-3 rounded-full bg-white/50 cursor-pointer" data-index="{{ $index }}"></span>
+      {{ end }}
+    </div>
   </div>
 
- <script>
-document.addEventListener("DOMContentLoaded", function() {
-  let current = 0;
-  const slides = document.querySelectorAll(".slide");
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    let current = 0;
+    const slides = document.querySelectorAll("#hero-carousel .slide");
+    const dots = document.querySelectorAll("#hero-carousel .dot");
 
-  function showSlide(i) {
-    slides.forEach((s, idx) => {
-      s.style.display = idx === i ? "block" : "none";
-    });
-  }
+    function showSlide(i) {
+      slides.forEach((s, idx) => {
+        s.style.display = idx === i ? "block" : "none";
+      });
+      dots.forEach((d, idx) => {
+        d.classList.toggle("bg-white", idx === i);
+        d.classList.toggle("bg-white/50", idx !== i);
+      });
+    }
 
-  showSlide(current);
-
-  setInterval(() => {
-    current = (current + 1) % slides.length;
     showSlide(current);
-  }, 4000);
-});
-</script>
 
+    const nextSlide = () => {
+      current = (current + 1) % slides.length;
+      showSlide(current);
+    };
+
+    const prevSlide = () => {
+      current = (current - 1 + slides.length) % slides.length;
+      showSlide(current);
+    };
+
+    document.getElementById("next-slide").addEventListener("click", nextSlide);
+    document.getElementById("prev-slide").addEventListener("click", prevSlide);
+    dots.forEach(dot => {
+      dot.addEventListener("click", () => {
+        current = parseInt(dot.dataset.index);
+        showSlide(current);
+      });
+    });
+
+    // 자동 슬라이드
+    setInterval(nextSlide, 4000);
+  });
+  </script>
 </section>
