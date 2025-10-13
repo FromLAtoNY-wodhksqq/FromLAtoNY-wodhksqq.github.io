@@ -68,5 +68,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      - name: Ensure hooks dirs exist
-        run: mkdir -p layouts/_partials/hooks/body-end
