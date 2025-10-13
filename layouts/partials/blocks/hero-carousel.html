@@ -13,18 +13,24 @@
     </div>
   </div>
 
-  <script>
-    let current = 0;
-    const slides = document.querySelectorAll(".slide");
-    function showSlide(i) {
-      slides.forEach((s, idx) => {
-        s.style.display = idx === i ? "block" : "none";
-      });
-    }
+ <script>
+document.addEventListener("DOMContentLoaded", function() {
+  let current = 0;
+  const slides = document.querySelectorAll(".slide");
+
+  function showSlide(i) {
+    slides.forEach((s, idx) => {
+      s.style.display = idx === i ? "block" : "none";
+    });
+  }
+
+  showSlide(current);
+
+  setInterval(() => {
+    current = (current + 1) % slides.length;
     showSlide(current);
-    setInterval(() => {
-      current = (current + 1) % slides.length;
-      showSlide(current);
-    }, 4000);
-  </script>
+  }, 4000);
+});
+</script>
+
 </section>
