@@ -22,7 +22,7 @@ sections:
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: movie.jpg
             filters:
               brightness: 0.7
           position: center
@@ -32,7 +32,7 @@ sections:
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: project.jpg
             filters:
               brightness: 0.5
           position: center
@@ -44,15 +44,11 @@ sections:
           url: ../contact/
     
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
       is_fullscreen: true
-      # Automatically transition through slides?
       loop: true
-      # Duration of transition between slides (in ms)
       interval: 5000
-      
-      
+
 
 
   # ===== Latest News Collection =====
