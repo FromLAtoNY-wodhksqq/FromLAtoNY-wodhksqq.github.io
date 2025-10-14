@@ -75,7 +75,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: https://github.com/FromLAtoNY-wodhksqq/FromLAtoNY-wodhksqq.github.io.git
     content_dir: content
     branch: main
   avatar:
@@ -103,7 +103,7 @@ features:
   map:
     provider: 'mapnik'
     api_key: ''
-    zoom: 15
+    zoom: 30
 
 # Extensions
 
