@@ -42,7 +42,7 @@ header:
     highlight_active_link: false
   design:
    filters:
-            brightness: 1
+    brightness: 0.5
 
 # Site footer
 
