@@ -40,13 +40,7 @@ sections:
     
       # Automatically link email and phone or display as text?
       autolink: true
-       
-
-      map:
-        zoom: 30
-        height: 400px   # 👈 여기서 지도 높이 조절
-        api_key: ""     # (Google Maps 쓰면 키 입력 가능)
-    
+      
     design:
       columns: '1'
       background:
