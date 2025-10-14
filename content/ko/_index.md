@@ -29,9 +29,7 @@ sections:
           color: '#555'
         link:
           
-          text: project
-          icon: arrow-right
-          icon_pack: fas
+          text: "project➡️"
           url: ../project/
       - title: I Like to..
         content: '저의 취미가 궁금하시다면?'
@@ -44,10 +42,7 @@ sections:
           position: center
           color: '#333'
         link:
-          
-          text: hobby
-          icon: arrow-right
-          icon_pack: fas
+          text: "hobby➡️"
           url: ../hobby/
     
     design:
