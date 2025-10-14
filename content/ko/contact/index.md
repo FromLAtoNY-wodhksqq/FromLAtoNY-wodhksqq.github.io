@@ -27,8 +27,8 @@ sections:
         country: 대한민국
         country_code: KR
       coordinates:
-        latitude: '35.8461'
-        longitude: '127.1296'
+        latitude: '35.84593210850605'
+        longitude: '127.1344716216'
       directions: 공과대학7호관
       office_hours:
              ALWAYS
