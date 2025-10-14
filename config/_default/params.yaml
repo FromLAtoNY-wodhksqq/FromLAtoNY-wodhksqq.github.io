@@ -15,10 +15,10 @@ appearance:
 
 marketing:
   seo:
-    site_type: Organization
+    site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
+    org_name: '전북대 최재완'
+    description: '전북대학교 컴퓨터공학과 학생 최재완의 포트폴리오 및 프로젝트 아카이브.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -26,7 +26,7 @@ marketing:
     google_tag_manager: ''
     microsoft_clarity: ''
   verification:
-    google: ''
+    google: '<meta name="google-site-verification" content="G9fsk6yMKN-xMtuUtciPaYa6T71U1daPFOoAH8ryfPI" />'
     baidu: ''
 
 # Site header

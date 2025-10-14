@@ -1,3 +1,0 @@
-hero-carousel:
-  type: landing
-  partial: "blocks/hero-carousel.html"
