@@ -16,10 +16,10 @@ sections:
             filters:
               brightness: 0.7
           position: right
-          color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
-        align: left
+          color: '#777777ff'
+      - title: Project🖥️
+        content: '저의 프로젝트가 궁금하시다면?'
+        align: right
         background:
           image:
             filename: project.jpg
@@ -27,8 +27,14 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+        link:
+          
+          text: project
+          icon: arrow-right
+          icon_pack: fas
+          url: ../project/
+      - title: I Like to..
+        content: '저의 취미가 궁금하시다면?'
         align: right
         background:
           image:
@@ -38,10 +44,11 @@ sections:
           position: center
           color: '#333'
         link:
-          icon: graduation-cap
+          
+          text: hobby
+          icon: arrow-right
           icon_pack: fas
-          text: Join Us
-          url: ../contact/
+          url: ../hobby/
     
     design:
       slide_height: ''
