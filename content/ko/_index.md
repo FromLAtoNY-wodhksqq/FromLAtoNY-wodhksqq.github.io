@@ -12,7 +12,7 @@ sections:
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: coder.jpg
             filters:
               brightness: 0.7
           position: right
@@ -22,7 +22,7 @@ sections:
         align: left
         background:
           image:
-            filename: movie.jpg
+            filename: project.jpg
             filters:
               brightness: 0.7
           position: center
@@ -32,7 +32,7 @@ sections:
         align: right
         background:
           image:
-            filename: project.jpg
+            filename: movie.jpg
             filters:
               brightness: 0.5
           position: center
@@ -81,7 +81,7 @@ sections:
       columns: "1"
       background:
         image:
-          filename: coders.jpg
+          filename: coder.jpg
           filters:
             brightness: 1
           parallax: false
