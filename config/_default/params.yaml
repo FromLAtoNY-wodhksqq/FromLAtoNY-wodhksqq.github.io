@@ -40,9 +40,9 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: false
-  design:
-   filters:
-    brightness: 0.5
+    design:
+     filters:
+       brightness: 0.5
 
 # Site footer
 
