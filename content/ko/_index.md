@@ -29,7 +29,7 @@ sections:
           color: '#555'
         link:
           
-          text: "project➡️"
+          text: "project →"
           url: ../project/
       - title: I Like to..
         content: '저의 취미가 궁금하시다면?'
@@ -42,7 +42,7 @@ sections:
           position: center
           color: '#333'
         link:
-          text: "hobby➡️"
+          text: "hobby →"
           url: ../hobby/
     
     design:
