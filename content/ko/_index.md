@@ -56,7 +56,7 @@ sections:
   # ===== Latest News Collection =====
   - block: collection
     content:
-      title: Latest News
+      title: "최근 TMI"
       subtitle: ""
       text: ""
       count: 5

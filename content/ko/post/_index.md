@@ -1,5 +1,5 @@
 ---
-title: Latest News
+title: "최근 TMI"
 
 # Listing view
 view: compact
