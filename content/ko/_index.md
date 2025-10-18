@@ -54,19 +54,22 @@ sections:
 # ===== Markdown Section with Background =====
   - block: collection
     content:
-      title: 🎬영화🎬
+      title: "🎬영화🎬"
+      subtitle: ""
+      text: ""
+      count: 6
       filters:
-        folders:
-          - hobby/movie
-        featured_only: true
+        author: ""
+        category: ""
+        exclude_featured: false
+        publication_type: ""
+        tag: ""
+      offset: 0
+      order: desc
+      page_type: hobby/movie
     design:
       view: grid
-      columns: 3
-    design:
       columns: "1"
-      spacing:
-        padding: ['40px', '0', '40px', '0']
-
 
 
 
