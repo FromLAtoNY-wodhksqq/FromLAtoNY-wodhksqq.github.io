@@ -52,21 +52,16 @@ sections:
       interval: 5000
 
 # ===== Markdown Section with Background =====
-  - block: markdown
+  - block: collection
     content:
-      title: "movie"
-      subtitle: ""
-      text: |
-        <div class="movie-gallery">
-          <div class="grid">
-          <div><img src="/media/movie1.jpg" alt="Movie 1"></div>
-          <div><img src="/media/movie2.jpg" alt="Movie 2"></div>
-          <div><img src="/media/movie3.jpg" alt="Movie 3"></div>
-          <div><img src="/media/movie4.jpg" alt="Movie 4"></div>
-          <div><img src="/media/movie5.jpg" alt="Movie 5"></div>
-          <div><img src="/media/movie6.jpg" alt="Movie 6"></div>
-          </div> 
-        </div>
+      title: 🎬영화🎬
+      filters:
+        folders:
+          - hobby/movie
+        featured_only: true
+    design:
+      view: grid
+      columns: 3
     design:
       columns: "1"
       spacing:
