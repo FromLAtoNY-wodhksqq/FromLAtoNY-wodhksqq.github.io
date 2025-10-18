@@ -10,9 +10,12 @@ sections:
       - title: 👋 최재완 Archive 👋
         content: "**최재완**의 **대학생**으로서의 활동 기록부터 **성공적인 앱** 개발까지의 성장과정을 담은 페이지 입니다."
         align: center
+
         background:
           image:
             filename: coder.jpg
+            focal_point: Right
+
             filters:
               brightness: 0.7
           position: right
@@ -65,7 +68,7 @@ sections:
        publication_type: ""
        tag: ""
        folders:
-          - hobby/movie
+          - hobby.movie
      order: desc
     design:
      view: grid

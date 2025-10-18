@@ -1,11 +1,10 @@
 ---
-title: movie
-cms_exclude: true
+title: "movie"
 
-# View.
-view: citation
+# Listing view
+view: compact
 
-# Optional header image (relative to `static/media/` folder).
+# Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
   image: ''
