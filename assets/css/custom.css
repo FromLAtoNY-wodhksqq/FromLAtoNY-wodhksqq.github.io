@@ -1,0 +1,18 @@
+.movie-gallery .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3열 */
+  gap: 20px; /* 이미지 간 간격 */
+  justify-items: center;
+}
+
+.movie-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.movie-gallery img:hover {
+  transform: scale(1.05);
+}

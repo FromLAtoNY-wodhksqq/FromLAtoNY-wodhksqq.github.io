@@ -51,6 +51,30 @@ sections:
       loop: true
       interval: 5000
 
+# ===== Markdown Section with Background =====
+  - block: markdown
+    content:
+      title: "movie"
+      subtitle: ""
+      text: |
+        <div class="movie-gallery">
+          <div class="grid">
+          <div><img src="/media/movie1.jpg" alt="Movie 1"></div>
+          <div><img src="/media/movie2.jpg" alt="Movie 2"></div>
+          <div><img src="/media/movie3.jpg" alt="Movie 3"></div>
+          <div><img src="/media/movie4.jpg" alt="Movie 4"></div>
+          <div><img src="/media/movie5.jpg" alt="Movie 5"></div>
+          <div><img src="/media/movie6.jpg" alt="Movie 6"></div>
+          </div> 
+        </div>
+    design:
+      columns: "1"
+      spacing:
+        padding: ['40px', '0', '40px', '0']
+
+
+
+
 
 
   # ===== Latest News Collection =====
@@ -73,26 +97,6 @@ sections:
       view: card
       columns: "1"
 
-  # ===== Markdown Section with Background =====
-  - block: markdown
-    content:
-      title: ""
-      subtitle: ""
-      text: ""
-    design:
-      columns: "1"
-      background:
-        image:
-          filename: coder.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 
   # ===== Latest Preprints Collection =====
   - block: collection

@@ -10,7 +10,7 @@ last_name: 최
 superuser: true
 
 # Role/position
-role: Students of CSAI,JBNU
+role: Undergraduate of CSAI,JBNU
 
 # Organizations/Affiliations
 organizations:

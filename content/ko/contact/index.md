@@ -14,6 +14,7 @@ sections:
             언제든지 편하게 연락주세요🤙📞
       email: 202422572@jbnu.ac.kr
       phone: 010-7703-3892
+      
       -icon: instagram
       iconpack: fab
       name: instagram
