@@ -54,25 +54,22 @@ sections:
 # ===== Markdown Section with Background =====
   - block: collection
     content:
-      title: "🎬영화🎬"
-      subtitle: ""
-      text: ""
-      count: 6
-      filters:
-        author: ""
-        category: ""
-        exclude_featured: false
-        publication_type: ""
-        tag: ""
-      offset: 0
-      order: desc
-      page_type: hobby/movie
+     title: "🎬 영화 🎬"
+     subtitle: ""
+     text: ""
+     count: 6
+     filters:
+       author: ""
+       category: ""
+       exclude_featured: false
+       publication_type: ""
+       tag: ""
+       folders:
+          - hobby/movie
+     order: desc
     design:
-      view: grid
-      columns: "1"
-
-
-
+     view: grid
+     columns: "1"
 
 
   # ===== Latest News Collection =====
