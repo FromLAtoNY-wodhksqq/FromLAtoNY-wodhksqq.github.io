@@ -3,7 +3,7 @@ title: "어바웃타임"
 summary: "나에게 처음으로 오글거림을 잊고 보게 해준 로맨스 영화"
 featured: true
 image:
-  filename: "movie6.jpg"
+  filename: "featured.jpg"
   focal_point: "center"
 ---
 

@@ -3,7 +3,7 @@ title: "해리포터"
 summary: "내 기억속에 있는 내 인생에서 처음으로 본 영화"
 featured: true
 image:
-  filename: "movie2.jpg"
+  filename: "featured.jpg"
   focal_point: "center"
 ---
 

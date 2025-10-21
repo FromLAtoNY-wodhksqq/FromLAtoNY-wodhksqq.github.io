@@ -54,7 +54,7 @@ sections:
             size: cover
             text_color_light: true
           overlay:
-            color: '#000000'      
+            color: '#a5a5a5ff'      
             opacity: 0.5           
 
     spacing:

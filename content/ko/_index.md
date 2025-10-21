@@ -53,24 +53,25 @@ sections:
       is_fullscreen: true
       loop: true
       interval: 5000
-
-# ===== Markdown Section with Background =====
+ 
   - block: collection
     content:
-      title: "🎬 영화 🎬"
+      title: "영화"
       subtitle: ""
       text: ""
       count: 6
       filters:
-        folders:
-          - hobby/movie
+        author: ""
+        category: ""
         exclude_featured: false
+        publication_type: ""
+        tag: ""
+      offset: 0
       order: desc
+      page_type: hobby
     design:
       view: grid
-      columns: 3
-      spacing:
-        padding: ['40px', '20px', '40px', '20px']
+      columns: "1"
 
   # ===== Latest News Collection =====
   - block: collection
@@ -93,7 +94,7 @@ sections:
       columns: "1"
 
 
-  # ===== Latest Preprints Collection =====
+ # ===== Latest Preprints Collection =====
   - block: collection
     content:
       title: Latest Preprints
@@ -106,7 +107,7 @@ sections:
     design:
       view: citation
       columns: "1"
-
+    
   # ===== CTA Section =====
   - block: markdown
     content:

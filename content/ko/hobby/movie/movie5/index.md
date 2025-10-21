@@ -3,7 +3,7 @@ title: "비긴어게인"
 summary: "뉴욕 여행 하고 싶게 해주는 영화 1위"
 featured: true
 image:
-  filename: "movie5.jpg"
+  filename: "featured.jpg"
   focal_point: "center"
 ---
 

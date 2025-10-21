@@ -18,9 +18,9 @@ main:
     weight: 500
   - parent: Hobby
     name: Movie
-    url: hobby/movie
+    url: hobby
     weight: 510
-  - parent: Hobby
+  - parent: Hobby 
     name: Music
     url: music
     weight: 520
