@@ -53,6 +53,10 @@ sections:
             position: center
             size: cover
             text_color_light: true
+          overlay:
+            color: '#000000'      
+            opacity: 0.5           
+
     spacing:
         padding: ['20px', '0', '20px', '0']
         css_class: fullscreen
