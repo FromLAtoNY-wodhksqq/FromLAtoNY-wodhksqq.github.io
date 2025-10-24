@@ -59,7 +59,7 @@ sections:
       title: "영화"
       subtitle: ""
       text: ""
-      count: 6
+      count: 3
       filters:
         author: ""
         category: ""
@@ -69,8 +69,11 @@ sections:
       offset: 0
       page_type: hobby
     design:
-      view: card_info
-      columns: "1"
+      view: grid
+      columns: "2"
+    link:
+     text: "더보기→"
+     url: ../hobby/movie
 
   # ===== Latest News Collection =====
   - block: collection

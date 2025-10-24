@@ -3,6 +3,7 @@ title: "인터스텔라"
 date: 2025-10-15
 summary: "가장 완성도 높은 과학 영화"
 featured: true
+
 image:
   filename: "featured.jpg"
   focal_point: "center"
