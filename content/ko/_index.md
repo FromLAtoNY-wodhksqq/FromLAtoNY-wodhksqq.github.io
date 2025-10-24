@@ -69,7 +69,7 @@ sections:
       offset: 0
       page_type: hobby
     design:
-      view: grid
+      view: card
       columns: "3"
 
   # ===== Latest News Collection =====
