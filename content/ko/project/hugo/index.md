@@ -1,5 +1,5 @@
 ---
-title: "Linux를 이용한 은행 계좌 조회 서비스 프로그램"
+title: "HUGO 템플릿을 이용한 포트폴리오 사이트 만들기 "
 authors:
 - admin
 date: "2025-10-25T00:00:00Z"
@@ -15,14 +15,14 @@ publication: ""
 publication_short: ""
 
 # Summary. An optional shortened abstract.
-summary: 계좌 입출금 내역 관리
+summary: 저의 포트폴리오 사이트를 제작해보았습니다.
 
 
 featured: true
 
 links:
-- name:
-  url: 
+- name: 전북대 최재완
+  url: https://fromlatony-wodhksqq.github.io/
 url_pdf: ''
 url_code: ''
 url_dataset: ''
@@ -46,7 +46,6 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
 - ''
-
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
@@ -55,7 +54,6 @@ projects:
 slides: ''
 ---
 
-
-**Linux**를 활용해서 계좌 입출금 내역 조회 서비스를 만들었습니다.  
+휴고템플릿을 이용하여 저만의 개인 사이트를 만들었습니다.
 
 ---
