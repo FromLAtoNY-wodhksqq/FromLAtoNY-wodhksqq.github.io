@@ -44,14 +44,17 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- ''
+projects: 
+- self-improvement
+
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ''
+slides: 
+- projectsfuture-plans
+
 ---
 
 휴고템플릿을 이용하여 저만의 개인 사이트를 만들었습니다.
