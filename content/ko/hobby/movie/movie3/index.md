@@ -1,5 +1,6 @@
 ---
 title: "클래식"
+date: 2025-10-15
 summary: "한국영화 중 추천하고 싶은 영화 1위"
 featured: true
 image:

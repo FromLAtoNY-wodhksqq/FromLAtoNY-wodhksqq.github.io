@@ -1,5 +1,6 @@
 ---
 title: "해리포터"
+date: 2025-10-15
 summary: "내 기억속에 있는 내 인생에서 처음으로 본 영화"
 featured: true
 image:

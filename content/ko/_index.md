@@ -70,7 +70,7 @@ sections:
       page_type: hobby
     design:
       view: grid
-      columns: "3"
+      columns: "1"
 
   # ===== Latest News Collection =====
   - block: collection
