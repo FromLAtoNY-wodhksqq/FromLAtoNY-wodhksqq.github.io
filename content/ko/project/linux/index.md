@@ -58,8 +58,5 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ''
 ---
-
-
 **Linux**를 활용해서 계좌 입출금 내역 조회 서비스를 만들었습니다.  
-
 ---

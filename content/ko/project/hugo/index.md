@@ -3,8 +3,12 @@ title: "HUGO 템플릿을 이용한 포트폴리오 사이트 만들기 "
 authors:
 - admin
 date: "2025-10-25T00:00:00Z"
-doi: ""
 
+
+tags:
+- hugo
+- 
+- 
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -52,9 +56,7 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: 
-- projectsfuture-plans
-
+slides: future-plans
 ---
 
 휴고템플릿을 이용하여 저만의 개인 사이트를 만들었습니다.
