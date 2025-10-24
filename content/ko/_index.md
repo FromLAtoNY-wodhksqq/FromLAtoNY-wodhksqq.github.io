@@ -67,7 +67,6 @@ sections:
         publication_type: ""
         tag: ""
       offset: 0
-      order: desc
       page_type: hobby
     design:
       view: grid
