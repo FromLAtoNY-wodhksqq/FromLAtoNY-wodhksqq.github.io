@@ -2,13 +2,12 @@
 title: "Linux를 이용한 은행 계좌 조회 서비스 프로그램"
 authors:
 - admin
-date: "2025-10-25T00:00:00Z"
+date: "2025-10-23T00:00:00Z"
 doi: ""
 
 tags:
 - linux
-- 
-- 
+
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -58,5 +57,7 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ''
 ---
-**Linux**를 활용해서 계좌 입출금 내역 조회 서비스를 만들었습니다.  
+
+**Linux**를 활용해서 계좌 입출금 내역 조회 서비스를 만들었습니다.
+
 ---

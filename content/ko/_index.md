@@ -55,14 +55,13 @@ sections:
       interval: 5000
 
   - block: collection
-    id: papers
     content:
       title: 📅 project 📅
       page_type: project
       featured_only: true
     design:
       view: article-grid
-      columns: 3
+      columns: "3"
 
  
   - block: collection
@@ -104,7 +103,7 @@ sections:
       page_type: post
     design:
       view: card
-      columns: "1"
+      columns: "2"
 
 
  # ===== Latest Preprints Collection =====
