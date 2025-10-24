@@ -5,6 +5,10 @@ authors:
 date: "2025-10-25T00:00:00Z"
 doi: ""
 
+tags:
+- linux
+- 
+- 
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
