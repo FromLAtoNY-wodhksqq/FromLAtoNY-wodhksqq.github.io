@@ -53,6 +53,19 @@ sections:
       is_fullscreen: true
       loop: true
       interval: 5000
+
+  - block: collection
+    id: papers
+    content:
+      title: 📅 project 📅
+      filters:
+        folders:
+          - project
+        featured_only: true
+    design:
+      view: article-grid
+      columns: 3
+
  
   - block: collection
     content:
