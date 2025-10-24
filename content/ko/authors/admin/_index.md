@@ -7,7 +7,7 @@ first_name: 재완
 last_name: 최
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Undergraduate of CSAI,JBNU
@@ -22,7 +22,7 @@ bio: 👋 안녕하세요, 최재완입니다, 제 페이지에 오신것을 환
 
 interests:
   - 앱 개발
-  - 대학생의 네트워킹
+  - 대학생 네트워킹
   - AI
 
 education:
