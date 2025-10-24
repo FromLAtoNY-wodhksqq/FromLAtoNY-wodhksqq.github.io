@@ -58,10 +58,8 @@ sections:
     id: papers
     content:
       title: 📅 project 📅
-      filters:
-        folders:
-          - project
-        featured_only: true
+      page_type: project
+      featured_only: true
     design:
       view: article-grid
       columns: 3
