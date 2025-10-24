@@ -2,7 +2,8 @@
 title: "movie"
 
 # Listing view
-view: compact
+view: grid
+columns: 3
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:
