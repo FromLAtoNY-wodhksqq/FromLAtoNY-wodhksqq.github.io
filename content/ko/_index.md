@@ -54,6 +54,7 @@ sections:
       loop: true
       interval: 5000
 
+
   - block: collection
     content:
       title: 🖥️ project 🖥️
