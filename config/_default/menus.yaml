@@ -8,7 +8,7 @@ main:
     url: about
     weight: 200
   - name: Profile
-    url: authour
+    url: author
     weight: 300
   - name: Project
     url: project
