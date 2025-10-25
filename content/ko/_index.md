@@ -61,17 +61,8 @@ sections:
       featured_only: true
     design:
       view: masonry
-      columns: "3"
-    extra:
-      markdown: |
-        <style>
-        body {
-          background-color: #3dc1e9ff;
-        }
-        .page-section--project .article-card {
-          flex-direction: row;
-        }
-        </style>
+      columns: "2"
+    
 
  
   - block: collection
