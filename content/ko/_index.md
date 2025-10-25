@@ -115,6 +115,14 @@ sections:
             </p>
           </div>
         </div>
+        
+        <div class="pdf">
+            <h3>이력서 다운로드</h3>
+            <div class="pdf123">
+              <a href="ass1.pdf" target="_blank" class="pdf123">이력서 다운로드📄</a>
+            </div>
+          </div>
+
 
       
 
