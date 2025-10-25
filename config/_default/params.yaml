@@ -13,7 +13,8 @@ appearance:
   theme_night: minimal
   font: native
   font_size: L
-  favicon: "media/og-image.png"
+  favicon: "media/icon.png"
+  color: blue
 
 # SEO
 
