@@ -27,9 +27,12 @@ interests:
 
 education:
   courses:
-    - course: Computer Science Artificial Intelligence
-      institution: JBNU
-      year: 2024
+    - course: 전북대 컴퓨터인공지능학부
+      institution: 
+      year: 2024~
+    - course: '중앙고등학교'
+      institution: 
+      year: 2017~2020
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
