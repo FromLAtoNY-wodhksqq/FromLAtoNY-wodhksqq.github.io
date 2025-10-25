@@ -54,6 +54,15 @@ sections:
       is_fullscreen: true
       loop: true
       interval: 5000
+  
+  - block: people
+    params:
+      photo: "media/me.png"
+      name: "최재완"
+      description: "안녕하세요! 전북대학교 컴퓨터공학과 학생 최재완입니다. 이 사이트에서는 제 포트폴리오와 프로젝트를 소개합니다."
+    design:
+        view: community/article-card
+        columns: "2"
 
   - block: collection
     content:

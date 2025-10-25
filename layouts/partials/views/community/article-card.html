@@ -1,0 +1,61 @@
+<div class="custom-profile-card">
+  <!-- 왼쪽: 프로필 사진 -->
+  <div class="profile-image">
+    <img src="{{ .Params.photo | default "media/me.png" }}" alt="{{ .Params.name | default "최재완" }}">
+  </div>
+
+  <!-- 오른쪽: 소개글 -->
+  <div class="profile-text">
+    <h2>{{ .Params.name | default "최재완" }}</h2>
+    <p>{{ .Params.description | default "안녕하세요! 전북대학교 컴퓨터공학과 학생 최재완입니다. 이 사이트에서는 제 포트폴리오와 프로젝트를 소개합니다." }}</p>
+  </div>
+</div>
+
+<style>
+.custom-profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f0f4f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.custom-profile-card:hover {
+  transform: translateY(-5px);
+}
+
+.custom-profile-card .profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.custom-profile-card .profile-text {
+  text-align: center;
+}
+
+.custom-profile-card .profile-text h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+@media(min-width:768px) {
+  .custom-profile-card {
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+  }
+  .custom-profile-card .profile-text {
+    margin-left: 1.5rem;
+  }
+}
+</style>
