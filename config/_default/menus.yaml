@@ -8,7 +8,7 @@ main:
     url: about
     weight: 200
   - name: Profile
-    url: author
+    url: author/최재완
     weight: 300
   - name: Project
     url: project
@@ -30,11 +30,11 @@ main:
     weight: 500
   - parent: Hobby
     name: Movie
-    url: hobby/movie
+    url: hobby
     weight: 510
   - parent: Hobby 
     name: Music
-    url: hobby/music
+    url: hobby
     weight: 520
   - name: Contact
     url: contact
