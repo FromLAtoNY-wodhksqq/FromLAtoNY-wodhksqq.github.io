@@ -6,14 +6,14 @@
 ko:
   languageCode: ko
   contentDir: content/ko
-  title: icon.png
+  title: Jaewa__n
   languageName: "한국어"
   weight: 1
 
 en:
   languageCode: en
   contentDir: content/en
-  title: icon.png
+  title: Jaewa__n
   languageName: "English"
   weight: 2
 
