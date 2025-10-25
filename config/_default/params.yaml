@@ -126,3 +126,7 @@ publications:
 custom_css:
   - scss/custom.scss
 
+custom_css:
+  - css/custom.css
+
+

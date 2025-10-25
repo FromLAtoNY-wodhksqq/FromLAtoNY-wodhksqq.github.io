@@ -60,8 +60,18 @@ sections:
       page_type: project
       featured_only: true
     design:
-      view: grid
+      view: masonry
       columns: "3"
+    extra:
+      markdown: |
+        <style>
+        body {
+          background-color: #3dc1e9ff;
+        }
+        .page-section--project .article-card {
+          flex-direction: row;
+        }
+        </style>
 
  
   - block: collection
@@ -105,28 +115,13 @@ sections:
       view: card
       columns: "2"
 
-
- # ===== Latest Preprints Collection =====
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: "article"
-    design:
-      view: citation
-      columns: "1"
-    
   # ===== CTA Section =====
   - block: markdown
     content:
       title: ""
       subtitle: ""
       text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
+        {{% cta cta_link="./contact/" cta_text="contact →" %}}
     design:
       columns: "1"
 ---
