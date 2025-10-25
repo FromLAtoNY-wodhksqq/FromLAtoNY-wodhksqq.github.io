@@ -3,7 +3,7 @@ title: Project
 cms_exclude: true
 
 # View.
-view: collection
+view: citation
 
 # Optional header image (relative to `static/media/` folder).
 banner:

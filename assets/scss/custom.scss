@@ -1,5 +1,30 @@
-.page-collection .article-card img {
-  aspect-ratio: 1 / 1;
+/* 프로젝트를 블로그형 리스트로 표현 */
+.collection-block .card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.collection-block .card img {
+  width: 160px;
+  height: 110px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 8px;
+}
+
+.collection-block .card-body {
+  flex: 1;
+}
+
+.collection-block .card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.collection-block .card-text {
+  color: #555;
+  font-size: 0.95rem;
 }

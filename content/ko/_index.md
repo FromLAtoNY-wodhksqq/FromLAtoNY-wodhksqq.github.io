@@ -56,17 +56,17 @@ sections:
 
   - block: collection
     content:
-      title: 📅 project 📅
+      title: 🖥️ project 🖥️
       page_type: project
       featured_only: true
     design:
-      view: article-grid
+      view: grid
       columns: "3"
 
  
   - block: collection
     content:
-      title: "영화"
+      title: "🎬영화🎬"
       subtitle: ""
       text: ""
       count: 3
