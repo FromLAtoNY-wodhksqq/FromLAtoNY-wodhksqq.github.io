@@ -24,8 +24,8 @@ summary: 저의 포트폴리오 사이트를 제작해보았습니다.
 featured: true
 
 links:
-- name: 전북대 최재완
-  url: https://fromlatony-wodhksqq.github.io/
+- name:
+  url:
 url_pdf: ''
 url_code: ''
 url_dataset: ''
@@ -47,17 +47,18 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: 
-- self-improvement
+
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: future-plans
+
 ---
 
-휴고템플릿을 이용하여 저만의 개인 사이트를 만들었습니다.
+저는 Hugo 프레임워크를 이용해 저만의 개인 홈페이지를 개발했습니다.
+이 웹사이트는 제 학업, 연구, 프로젝트를 한눈에 볼 수 있도록 구성되어 있으며,
+직접 커스터마이징한 디자인을 통해 저만의 개성과 스타일을 담았습니다.
 
 ---
