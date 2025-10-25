@@ -21,7 +21,7 @@ appearance:
       link: "#1E90FF"        # 링크 색상
     night:
       primary: "#FF6B6B"     # 어두운 모드 포인트 컬러
-      background: "#121212"  # 다크모드 배경색
+      background: "#12212"  # 다크모드 배경색
       text: "#F0F0F0"        # 다크모드 텍스트
       link: "#FF9999"        # 다크모드 링크색
 # SEO
