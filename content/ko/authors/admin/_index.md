@@ -22,7 +22,7 @@ bio: 👋 안녕하세요, 최재완입니다, 제 페이지에 오신것을 환
 
 interests:
   - 앱 개발
-  - 대학생 네트워킹
+  - 대학생 커뮤니티 파워
   - AI
 
 education:
@@ -51,6 +51,12 @@ social:
   - icon: youtube
     icon_pack: fab
     link: https://www.youtube.com/@choijaewan
+  - icon: discord
+    icon_pack: fab
+    link: https://www.discord.com/users/530624399875899412
+  - icon: facebook
+    icon_pack: fab
+    link: https://www.facebook.com/wodhksqq/
     
 
 # Link to a PDF of your resume/CV from the About widget.
