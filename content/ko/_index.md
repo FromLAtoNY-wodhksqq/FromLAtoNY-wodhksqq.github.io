@@ -143,7 +143,7 @@ sections:
       order: desc
       page_type: post
     design:
-      view: article
+      view: article-grid
       columns: "2"
 
   # ===== CTA Section =====
