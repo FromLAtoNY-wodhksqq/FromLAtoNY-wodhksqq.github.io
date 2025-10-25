@@ -55,14 +55,45 @@ sections:
       loop: true
       interval: 5000
   
-  - block: people
-    params:
-      photo: "media/me.png"
-      name: "최재완"
-      description: "안녕하세요! 전북대학교 컴퓨터공학과 학생 최재완입니다. 이 사이트에서는 제 포트폴리오와 프로젝트를 소개합니다."
-    design:
-        view: community/article-card
-        columns: "2"
+  - block: markdown
+    content:
+      title: 최재완입니다
+      text: |
+        <style>
+          /* Profile Tags Styles */
+          .profile-tag {
+            padding: 8px 16px;
+            border-radius: 20px;
+            border: 1px solid #dee2e6;
+            background-color: #f8f9fa;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            transition: all 0.3s ease;
+            margin: 5px;
+          }
+
+
+          .profile-section {
+            margin-top: 30px;
+          }
+
+          .profile-section h3 {
+            text-align: center;
+            margin-bottom: 15px;
+          }
+        </style>
+
+        <div style="text-align: justify; max-width: 800px; margin: 0 auto; padding: 40px 20px;">
+          <div style="text-align: center; margin-bottom: 30px;">
+            <img src="me.png" alt="최재완 프로필" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin: 0 auto 20px auto; display: block;">
+            <h2> 안녕하세요🤙</h2>
+          </div>
+          <p>안녕하세요. 저는 전북대학교 컴퓨터 인공지능 학부에 재학 중인 최재완입니다. 제가 구상중인 어플 개발을 위해 부지런히 노력하는 중입니다.</p>
+          
+      
+        </div>
 
   - block: collection
     content:
