@@ -47,43 +47,13 @@ sections:
         link:
           text: "hobby →"
           url: ../hobby/
+  
     
     design:
       slide_height: ''
       is_fullscreen: true
       loop: true
       interval: 5000
-
-  - block: markdown
-    extra:
-      markdown: |
-        <div class="intro-card" style="display:flex; flex-direction: column; align-items:center; gap:1rem; padding:20px; background-color:#f0f4f8; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-          
-          <!-- 왼쪽: 프로필 사진 -->
-          <div style="flex:0 0 auto; width:150px; height:150px;">
-            <img src="media/me.png" alt="최재완" style="width:100%; height:100%; border-radius:50%; object-fit:cover; border:4px solid white; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
-          </div>
-          
-          <!-- 오른쪽: 소개글 -->
-          <div style="text-align:center; max-width:600px;">
-            <h2 style="font-size:2rem; font-weight:bold; margin-bottom:0.5rem;">최재완</h2>
-            <p>안녕하세요! 전북대학교 컴퓨터공학과 학생 <strong>최재완</strong>입니다.<br>
-            이 사이트에서는 제 포트폴리오와 프로젝트를 소개합니다.</p>
-          </div>
-        </div>
-
-        <style>
-        @media(min-width:768px) {
-          .intro-card {
-            flex-direction: row;
-            align-items: center;
-            text-align: left;
-          }
-          .intro-card div:last-child {
-            margin-left: 1.5rem;
-          }
-        }
-        </style>
 
   - block: collection
     content:
@@ -93,7 +63,7 @@ sections:
     design:
       view: masonry
       columns: "2"
-    
+  
 
  
   - block: collection
