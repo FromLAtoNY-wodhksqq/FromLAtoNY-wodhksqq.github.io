@@ -86,7 +86,7 @@ sections:
         </style>
         <div style="text-align: justify; max-width: 800px; margin: 0 auto; padding: 40px 20px;">
           <div style="text-align: center; margin-bottom: 30px;">
-            <img src="/media/me.png" alt="최재완 프로필" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin: 0 auto 20px auto; display: block;">
+            <img src="me.png" alt="최재완 프로필" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin: 0 auto 20px auto; display: block;">
             <h2>안녕하세요🤙</h2>
           </div>
           <p>안녕하세요. 저는 전북대학교 컴퓨터 인공지능 학부에 재학 중인 최재완입니다. 제가 구상중인 어플 개발을 위해 부지런히 노력하는 중입니다.</p>
