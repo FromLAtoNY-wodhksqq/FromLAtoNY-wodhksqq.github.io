@@ -15,26 +15,26 @@ main:
     weight: 400
   - parent: Project
     name: Hugo
-    url: journal-article
+    url: project/journal-article
     weight: 410
   - parent: Project 
     name: Linux
-    url: conference-paper
+    url: project/conference-paper
     weight: 420
   - parent: Project 
     name: 먹을래말래
-    url: preprint
+    url: project/preprint
     weight: 430
   - name: Hobby
     url: hobby
     weight: 500
   - parent: Hobby
     name: Movie
-    url: movie
+    url: hobby/movie
     weight: 510
   - parent: Hobby 
     name: Music
-    url: music
+    url: hobby/music
     weight: 520
   - name: Contact
     url: contact
