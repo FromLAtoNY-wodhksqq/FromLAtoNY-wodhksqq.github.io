@@ -13,12 +13,24 @@ main:
   - name: Project
     url: project
     weight: 400
+  - parent: project
+    name: Hugo
+    url: journal-article
+    weight: 410
+  - parent: project 
+    name: Linux
+    url: conference-paper
+    weight: 420
+  - parent: project 
+    name: 먹을래말래
+    url: preprint
+    weight: 430
   - name: Hobby
     url: hobby
     weight: 500
   - parent: Hobby
     name: Movie
-    url: hobby
+    url: movie
     weight: 510
   - parent: Hobby 
     name: Music
