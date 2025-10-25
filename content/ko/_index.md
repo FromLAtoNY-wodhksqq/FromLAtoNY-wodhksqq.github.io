@@ -54,6 +54,29 @@ sections:
       loop: true
       interval: 5000
 
+  - block: markdown
+    content:
+      username: jaewan
+      text: ""
+      params:
+        photo: "admin/avatar.jpg"
+      button:
+        text: 이력서 다운받기
+        url: /assets/media/ass1.pdf
+    design:
+      css_class: dark
+      background:
+        color: black
+        image:
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
+      avatar:
+        size: medium
+        shape: circle
+
 
   - block: collection
     content:

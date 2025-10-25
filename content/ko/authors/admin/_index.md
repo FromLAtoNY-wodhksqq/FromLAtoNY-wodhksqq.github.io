@@ -7,7 +7,7 @@ first_name: 재완
 last_name: 최
 
 # Is this the primary user of the site?
-superuser: false
+superuser: true
 
 # Role/position
 role: Undergraduate of CSAI,JBNU
