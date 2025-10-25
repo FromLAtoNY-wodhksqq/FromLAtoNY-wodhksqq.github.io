@@ -104,7 +104,7 @@ sections:
       order: desc
       page_type: post
     design:
-      view: card
+      view: article-card
       columns: "2"
 
   # ===== CTA Section =====
