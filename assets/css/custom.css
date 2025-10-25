@@ -1,18 +1,10 @@
-.movie-gallery .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3열 */
-  gap: 20px; /* 이미지 간 간격 */
-  justify-items: center;
+/* 전체 페이지 배경 */
+body {
+  background-color: #3dc1e9ff !important;
 }
 
-.movie-gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-  transition: transform 0.3s ease;
-}
-
-.movie-gallery img:hover {
-  transform: scale(1.05);
+/* project 섹션의 카드 방향 변경 */
+.page-section--project .article-card {
+  display: flex !important;
+  flex-direction: row !important;
 }
