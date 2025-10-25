@@ -60,36 +60,60 @@ sections:
       title: ''
       text: |
         <style>
-          /* Profile Tags Styles */
-          .profile-tag {
-            padding: 8px 16px;
-            border-radius: 20px;
-            border: 1px solid #dee2e6;
-            background-color: #f8f9fa;
-            text-decoration: none;
-            display: inline-flex;
+          /* Profile 섹션 전체 */
+          .profile-container {
+            display: flex;
             align-items: center;
-            gap: 5px;
-            transition: all 0.3s ease;
-            margin: 5px;
+            justify-content: center;
+            gap: 40px;
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 40px 20px;
+            text-align: justify;
+            flex-wrap: wrap; /* 화면 작으면 세로로 쌓이게 */
           }
 
-
-          .profile-section {
-            margin-top: 30px;
+          /* 프로필 이미지 */
+          .profile-container img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover ;
+            object-position: center top;
+            transform: scale(1.2);
+          
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
           }
 
-          .profile-section h3 {
-            text-align: center;
+          /* 텍스트 영역 */
+          .profile-text {
+            flex: 1;
+            min-width: 250px;
+          }
+
+          /* 인사말 */
+          .profile-text h2 {
             margin-bottom: 15px;
+            font-size: 1.8rem;
+            text-align: left;
+          }
+
+          .profile-text p {
+            line-height: 1.7;
           }
         </style>
-        <div style="text-align: justify; max-width: 800px; margin: 0 auto; padding: 40px 20px;">
-          <div style="text-align: center; margin-bottom: 30px;">
-            <img src="me.png" alt="최재완 프로필" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin: 0 auto 20px auto; display: block;">
-            <h2>안녕하세요🤙</h2>
+
+        <div class="profile-container">
+          <div>
+            <img src="me.png" alt="최재완 프로필">
           </div>
-          <p>안녕하세요. 저는 전북대학교 컴퓨터 인공지능 학부에 재학 중인 최재완입니다. 제가 구상중인 어플 개발을 위해 부지런히 노력하는 중입니다.</p>
+          <div class="profile-text">
+            <h2>안녕하세요🤙</h2>
+            <p>
+              안녕하세요. 저는 전북대학교 컴퓨터 인공지능 학부에 재학 중인 <strong>최재완</strong>입니다.<br>
+              저는 대학생의 커뮤니티 파워가 꽤 많이 강하다는 것을 깨닫고 이 점을 활용하고자 대학생을 위한 어플리케이션 개발을 구상하여 졸업전에 출시하는 것을 목표로 두고 있습니다.
+            </p>
+          </div>
         </div>
 
       
