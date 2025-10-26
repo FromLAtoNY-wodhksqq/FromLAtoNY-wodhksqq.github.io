@@ -1,5 +1,5 @@
 ---
-title: "HUGO 템플릿을 이용한 포트폴리오 사이트 만들기 "
+title: "Create a portfolio site using HUGO templates"
 authors:
 - admin
 date: "2025-10-23T00:00:00Z"
@@ -18,7 +18,7 @@ publication: ""
 publication_short: ""
 
 # Summary. An optional shortened abstract.
-summary: 저의 포트폴리오 사이트를 제작해보았습니다.
+summary: I have created my portfolio site.
 
 
 featured: true
@@ -57,8 +57,8 @@ image:
 
 ---
 
-저는 Hugo 프레임워크를 이용해 저만의 개인 홈페이지를 개발했습니다.
-이 웹사이트는 제 학업, 연구, 프로젝트를 한눈에 볼 수 있도록 구성되어 있으며,
-직접 커스터마이징한 디자인을 통해 저만의 개성과 스타일을 담았습니다.
+I developed my own personal homepage using Hugo framework.
+This website is designed to provide a quick view of my studies, research, and projects,
+I captured my own personality and style through my own customized design.
 
 ---
