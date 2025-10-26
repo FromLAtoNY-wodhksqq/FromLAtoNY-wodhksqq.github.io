@@ -160,7 +160,7 @@ sections:
  
   - block: collection
     content:
-      title: "🎬영화🎬"
+      title: "🎬Movie🎬"
       subtitle: ""
       text: ""
       count: 3
