@@ -14,13 +14,15 @@ sections:
        
       text: |- 
             
-            언제든지 편하게 연락주세요🤙📞
+            Feel free to contact me anytime 🤙📞
+
+
       email: 202422572@jbnu.ac.kr
       phone: 010-7703-3892
       address:
-        street: 백제대로 567
-        city: 전주
-        region: 전라북도
+        street: 567 Baekje-daero
+        city: Jeonju
+        region: Jeollabuk-do
         postcode: '54896'
         country: 대한민국
         country_code: KR
