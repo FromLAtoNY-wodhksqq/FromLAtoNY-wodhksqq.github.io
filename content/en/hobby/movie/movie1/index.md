@@ -1,7 +1,7 @@
 ---
-title: "레미제라블"
+title: "Les Misérables"
 date: 2025-10-15
-summary: "뮤지컬 영화에 입문하게 해준 영화"
+summary: "a movie that got me into musical movies"
 featured: true
 page_type: hobby.movie 
 
@@ -9,4 +9,4 @@ image:
   filename: "featured.jpg"
   focal_point: "center"
 ---
-노래가 너무 좋아서 다섯 번 정도 본 영화.
+The song was so good that I watched it about five times.
