@@ -1,7 +1,7 @@
 ---
-title: "비긴어게인"
+title: "Begin Again"
 date: 2025-10-15
-summary: "뉴욕 여행 하고 싶게 해주는 영화 1위"
+summary: "The number one movie that makes you want to travel to New York."
 featured: true
 
 image:
@@ -9,4 +9,4 @@ image:
   focal_point: "center"
 ---
 
-서사와 ost가 훌륭한 영화, 영화의 자유로운 분위기가 너무 좋아서 뉴욕 여행 가고 싶게 만드는 영화.
+A movie with great narrative and ost, a movie with a great free atmosphere that makes me want to travel to New York.
