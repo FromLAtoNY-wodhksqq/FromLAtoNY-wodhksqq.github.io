@@ -176,13 +176,13 @@ sections:
       view: grid
       columns: "2"
     link:
-     text: "더보기→"
+     text: "More→"
      url: ../hobby/movie
 
   # ===== Latest News Collection =====
   - block: collection
     content:
-      title: "최근 TMI"
+      title: "Latest TMI"
       subtitle: ""
       text: ""
       count: 5
