@@ -56,6 +56,7 @@ header:
     design:
      filters:
        brightness: 0.5
+       color: "#555"
 
 # Site footer
 

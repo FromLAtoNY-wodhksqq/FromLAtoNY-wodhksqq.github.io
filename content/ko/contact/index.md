@@ -35,7 +35,7 @@ sections:
     
       # Automatically link email and phone or display as text?
       autolink: true
-      
+   
     design:
       columns: '2'
       background:
@@ -50,7 +50,9 @@ sections:
           overlay:
             color: '#a5a5a5ff'      
             opacity: 0.5           
-
+      banner:
+        caption: ''
+        image: 'contact.jpg' 
     spacing:
         padding: ['20px', '0', '20px', '0']
         css_class: fullscreen

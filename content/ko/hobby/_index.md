@@ -8,5 +8,5 @@ columns: 1
 # Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
-  image: ''
+  image: 'movie.jpg'
 ---

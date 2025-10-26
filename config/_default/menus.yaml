@@ -32,10 +32,6 @@ main:
     name: Movie
     url: hobby
     weight: 510
-  - parent: Hobby 
-    name: Music
-    url: hobby
-    weight: 520
   - name: Contact
     url: contact
     weight: 600
