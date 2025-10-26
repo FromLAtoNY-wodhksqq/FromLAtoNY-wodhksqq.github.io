@@ -35,7 +35,7 @@ sections:
           text: "project →"
           url: ../project/
       - title: I Like to..
-        content: '저의 취미가 궁금하시다면?'
+        content: 'If you're curious about my hobby?'
         align: right
         background:
           image:
@@ -129,14 +129,14 @@ sections:
             <img src="me.png" alt="최재완 프로필">
           </div>
           <div class="profile-text">
-            <h2>안녕하세요🤙</h2>
+            <h2>Hi🤙</h2>
             <p>
-              안녕하세요. 저는 전북대학교 컴퓨터 인공지능 학부에 재학 중인 <strong>최재완</strong>입니다.<br>
-              저는 대학생의 커뮤니티 파워가 꽤 많이 강하다는 것을 깨닫고 이 점을 활용하고자 대학생을 위한 어플리케이션 개발을 구상하였고 졸업전에 출시하는 것을 목표로 두고 있습니다.
+              Hello, I'm Choi Jae-wan</strong> and I'm a computer artificial intelligence student at Chonbuk National University.<br>
+              I realized that the community power of college students is quite strong, so I designed an application development for college students to take advantage of this, and I aim to release it before graduation.
                         <div class="pdf-link">
                         <h3></h3>
                         <div class="pdf-link">
-                          <a href="ass1.pdf" target="_blank" class="pdf-link">이력서 다운로드.pdf📄</a>
+                          <a href="ass1.pdf" target="_blank" class="pdf-link">Download resume.pdf📄</a>
                       </div>
           </div>
             </p>
