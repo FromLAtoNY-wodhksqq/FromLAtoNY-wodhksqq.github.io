@@ -1,13 +1,13 @@
 ---
-title: 속보) 최재완, 다음주 두개의 시험을 앞두었지만 시험 공부 아직 시작 안해..
+title: Breaking news) Choi Jae-wan has two exams ahead of next week, but he has not started studying for the exam yet..
 date: 2025-10-15
 image:
 
 ---
 
 
-최재완 긴 연휴간 가족들과의 화목함을 얻고 성적을 잃어버렸다는 소식
+Choi Jae-wan's long holiday news that he gained harmony with his family and lost his grades
 
 <!--more-->
 
-과연 그는 초급 프로젝트 과제를 무사히 끝내고 시험공부를 시작할 수 있을것인가?
+Will he be able to finish the beginner project assignment safely and start studying for the exam?
