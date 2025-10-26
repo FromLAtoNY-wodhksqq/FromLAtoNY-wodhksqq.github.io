@@ -1,10 +1,11 @@
 ---
-title: Recent & Upcoming Events
+title: "자기소개"
 
 # Listing view
-view: compact
+view: grid
+columns: 1
 
-# Optional header image (relative to `assets/media/` folder).
+# Optional banner image (relative to `assets/media/` folder).
 banner:
   caption: ''
   image: ''
