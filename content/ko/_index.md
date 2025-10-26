@@ -103,20 +103,25 @@ sections:
           }
           
           .pdf-link {
-          margin-top: 20px;
-          display: inline-block;
-          padding: 8px 16px;
-          border-radius: 12px;
-          background-color: #0077B6;
-          color: white;
-          text-decoration: none;
-          font-weight: bold;
-          transition: all 0.3s ease;
+            display: inline-flex;        /* flex 사용 */
+            align-items: center;         /* 세로 가운데 정렬 */
+            justify-content: center;     /* 가로 가운데 정렬 */
+            padding: 4px 5px;           /* 버튼 내부 여백 */
+            border-radius: 12px;
+            background-color: #0077B6;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            line-height: 1;              /* 글자 높이 정확하게 맞춤 */
+            transition: all 0.3s ease;
+          }
 
-          
-        .pdf-link:hover {
-          background-color: #005f8c;
-        }
+          .pdf-link:hover {
+            background-color: #fdfdfdff;
+          }
+
+
        </style>
 
         <div class="profile-container">
