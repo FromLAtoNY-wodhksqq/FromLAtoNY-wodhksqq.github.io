@@ -1,11 +1,11 @@
 ---
 
 # Display name
-title: 최재완
+title: Choijaewan
 
 # Full Name (for SEO)
-first_name: 재완
-last_name: 최
+first_name: jaewan
+last_name: Choi
 
 # Is this the primary user of the site?
 superuser: true
@@ -19,19 +19,19 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 👋 안녕하세요, 최재완입니다, 제 페이지에 오신것을 환영합니다. 충분히 살펴보고 가주세요.
+bio: 👋 Hello, this is Jaewan Choi, and welcome to my page. Please take a good look at it.
 
 interests:
-  - 앱 개발
-  - 대학생 커뮤니티 파워
+  - App development
+  - University Student Community Power
   - AI
 
 education:
   courses:
-    - course: 전북대 컴퓨터인공지능학부
+    - course: CSAI,JBNU
       institution: 
       year: 2024~
-    - course: '중앙고등학교'
+    - course: 'Joongang highschool'
       institution: 
       year: 2017~2020
 
