@@ -1,7 +1,7 @@
 ---
-title: "어바웃타임"
+title: "About time"
 date: 2025-10-15
-summary: "나에게 처음으로 오글거림을 잊고 보게 해준 로맨스 영화"
+summary: "A romance movie that allowed me to forget the cringe for the first time"
 featured: true
 
 image:
@@ -9,4 +9,4 @@ image:
   focal_point: "center"
 ---
 
-로맨스 영화의 오글거림에 대한 거부감을 잊고 처음으로 로맨스 영화를 즐기게 해준 영화.
+A movie that allowed me to forget my reluctance to the cringe of romance movies and enjoy romance movies for the first time.
