@@ -59,7 +59,7 @@ sections:
     content:
       title: ''
       text: |
-        <style>
+       <style>
           /* Profile 섹션 전체 */
           .profile-container {
             display: flex;
@@ -101,7 +101,23 @@ sections:
           .profile-text p {
             line-height: 1.7;
           }
-        </style>
+          
+          .pdf-link {
+          margin-top: 20px;
+          display: inline-block;
+          padding: 8px 16px;
+          border-radius: 12px;
+          background-color: #0077B6;
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+          transition: all 0.3s ease;
+
+          
+        .pdf-link:hover {
+          background-color: #005f8c;
+        }
+       </style>
 
         <div class="profile-container">
           <div>
@@ -112,17 +128,17 @@ sections:
             <p>
               안녕하세요. 저는 전북대학교 컴퓨터 인공지능 학부에 재학 중인 <strong>최재완</strong>입니다.<br>
               저는 대학생의 커뮤니티 파워가 꽤 많이 강하다는 것을 깨닫고 이 점을 활용하고자 대학생을 위한 어플리케이션 개발을 구상하였고 졸업전에 출시하는 것을 목표로 두고 있습니다.
+                        <div class="pdf">
+                        <h3></h3>
+                        <div class="pdf123">
+                          <a href="ass1.pdf" target="_blank" class="pdf123">이력서 다운로드.pdf📄</a>
+                      </div>
+          </div>
             </p>
           </div>
         </div>
         
-        <div class="pdf">
-            <h3>이력서 다운로드</h3>
-            <div class="pdf123">
-              <a href="ass1.pdf" target="_blank" class="pdf123">이력서 다운로드📄</a>
-            </div>
-          </div>
-
+   
 
       
 
