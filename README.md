@@ -1,48 +1,176 @@
-# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
+---
+title: "최재완 Archive"
+date: 2025-10-13
+type: landing
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+sections:
+  # ===== 메인 슬라이더 =====
+  - block: slider
+    content:
+      slides:
+        - title: 👋 최재완 Archive 👋
+          content: "**최재완**의 **대학생**으로서의 활동 기록부터 **성공적인 앱** 개발까지의 성장 과정을 담은 페이지입니다."
+          align: center
+          background:
+            image:
+              filename: coder.jpg
+              focal_point: Right
+              filters:
+                brightness: 0.7
+            position: right
+            color: '#777777ff'
 
-The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
+        - title: Project🖥️
+          content: '저의 프로젝트가 궁금하시다면?'
+          align: right
+          background:
+            image:
+              filename: project.jpg
+              filters:
+                brightness: 0.7
+            position: center
+            color: '#555'
+          link:
+            text: "project →"
+            url: ../project/
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+        - title: I Like to..
+          content: '저의 취미가 궁금하시다면?'
+          align: right
+          background:
+            image:
+              filename: movie.jpg
+              filters:
+                brightness: 0.5
+            position: center
+            color: 'rgba(159, 244, 255, 1)'
+          link:
+            text: "hobby →"
+            url: ../hobby/
+    design:
+      is_fullscreen: true
+      loop: true
+      interval: 5000
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+  # ===== 프로필 섹션 =====
+  - block: markdown
+    content:
+      title: ''
+      text: |
+        <style>
+          .profile-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 40px 20px;
+            text-align: justify;
+            flex-wrap: wrap;
+          }
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+          .profile-container img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center top;
+            transform: scale(1.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+          }
 
-[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
+          .profile-text {
+            flex: 1;
+            min-width: 250px;
+          }
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+          .profile-text h2 {
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            text-align: left;
+          }
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+          .profile-text p {
+            line-height: 1.7;
+          }
 
-## We ask you, humbly, to support this open source movement
+          .pdf-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 6px 12px;
+            border-radius: 12px;
+            background-color: #0077B6;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+            line-height: 1.2;
+            transition: all 0.3s ease;
+            margin-top: 15px;
+          }
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+          .pdf-link:hover {
+            background-color: #005f8c;
+          }
+        </style>
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+        <div class="profile-container">
+          <div>
+            <img src="me.png" alt="최재완 프로필">
+          </div>
+          <div class="profile-text">
+            <h2>안녕하세요🤙</h2>
+            <p>
+              안녕하세요. 저는 전북대학교 컴퓨터 인공지능 학부에 재학 중인 <strong>최재완</strong>입니다.<br>
+              저는 대학생의 커뮤니티 파워가 꽤 강하다는 점을 깨닫고, 이를 활용한 대학생 대상 어플리케이션을 개발 중입니다. 졸업 전 출시를 목표로 두고 있습니다.
+            </p>
+            <a href="ass1.pdf" target="_blank" class="pdf-link">이력서 다운로드📄</a>
+          </div>
+        </div>
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+  # ===== 프로젝트 =====
+  - block: collection
+    content:
+      title: 🖥️ project 🖥️
+      page_type: project
+      featured_only: true
+    design:
+      view: masonry
+      columns: "2"
 
-## Demo credits
+  # ===== 영화 취미 섹션 =====
+  - block: collection
+    content:
+      title: "🎬 영화 🎬"
+      count: 3
+      filters:
+        page_type: hobby
+    design:
+      view: grid
+      columns: "2"
+    link:
+      text: "더보기 →"
+      url: ../hobby/movie
 
-Please replace the demo images with your own.
+  # ===== 최근 TMI =====
+  - block: collection
+    content:
+      title: "최근 TMI"
+      count: 5
+      order: desc
+      page_type: post
+    design:
+      view: article-grid
+      columns: "2"
 
-- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
-- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
-- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
-- Blog posts
-  - https://unsplash.com/photos/AndE50aaHn4
-  - https://unsplash.com/photos/OYzbqk2y26c
-- Avatars
-  - https://unsplash.com/photos/5yENNRbbat4
-  - https://unsplash.com/photos/WNoLnJo7tS8
+  # ===== 연락 CTA =====
+  - block: markdown
+    content:
+      text: |
+        {{% cta cta_link="./contact/" cta_text="contact →" %}}
+    design:
+      columns: "1"
+---
+
