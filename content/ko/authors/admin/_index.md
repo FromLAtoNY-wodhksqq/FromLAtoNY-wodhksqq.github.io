@@ -11,7 +11,7 @@ last_name: 최
 superuser: true
 
 # Role/position
-role: Undergraduate of CSAI,JBNU
+role: 전북대학교 컴퓨터인공지능학부생
 
 # Organizations/Affiliations
 organizations:
