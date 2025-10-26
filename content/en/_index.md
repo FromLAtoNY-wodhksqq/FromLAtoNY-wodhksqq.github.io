@@ -1,5 +1,5 @@
 ---
-title: "최재완 Archive"
+title: "CHoi Archive"
 date: 2025-10-13
 type: landing
 
@@ -7,8 +7,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 최재완 Archive 👋
-        content: "**최재완**의 **대학생**으로서의 활동 기록부터 **성공적인 앱** 개발까지의 성장과정을 담은 페이지 입니다."
+      - title: 👋 Choi Archive 👋
+        content: "This page contains the growth process from **Jaewan Choi's** record as a **university student** to **successful app** development."
         align: center
 
         background:
@@ -21,7 +21,7 @@ sections:
           position: right
           color: '#777777ff'
       - title: Project🖥️
-        content: '저의 프로젝트가 궁금하시다면?'
+        content: 'If you're curious about my project?'
         align: right
         background:
           image:
