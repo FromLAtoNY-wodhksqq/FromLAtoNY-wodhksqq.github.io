@@ -1,5 +1,5 @@
 ---
-title: "최근 TMI"
+title: "Latest TMI"
 
 # Listing view
 view: compact

@@ -46,40 +46,40 @@
   }
 </style>
  
-어렸을 때 부터 사진찍는걸 싫어했는데 이렇게까지 제 사진이 없을 줄이야 깜짝 놀랐습니다.
+I didn't like taking pictures since I was young, but I was so surprised that there wouldn't be a picture of me.
 
 <div class="diary-album">
   <div class="diary-item">
     <img src="14.jpg" alt="중1">
-    <p>중1</p>
+    <p>mid1</p>
   </div>
 
   <div class="diary-item">
     <img src="16.jpg" alt="중3">
-    <p>중3</p>
+    <p>mid3</p>
   </div>
 
   <div class="diary-item">
     <img src="17.jpg" alt="고1">
-    <p>고1</p>
+    <p>high1</p>
   </div>
 
  <div class="diary-item">
     <img src="18.jpg" alt="고2">
-    <p>고2</p>
+    <p>high2</p>
   </div>
    
   <div class="diary-item">
     <img src="19.jpeg" alt="고3">
-    <p>고3</p>
+    <p>high3</p>
   </div>  
  
  <div class="diary-item">
     <img src="20.jpg" alt="스물">
-    <p>스물</p>
+    <p>twenty</p>
   </div>  
 
-  이때부터 세월의 풍파를 맞았습니다.
+  Since then, I've been hit by a wave of time.
 
   <div class="diary-item">
     <img src="21.jpg" alt="21">
@@ -88,7 +88,7 @@
 
   <div class="diary-item">
     <img src="23.jpg" alt="24">
-    <p>24(어흥)</p>
+    <p>24(meow)</p>
   </div>  
 
   <div class="diary-item">

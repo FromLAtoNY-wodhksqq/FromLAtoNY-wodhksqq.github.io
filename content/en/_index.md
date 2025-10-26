@@ -21,7 +21,7 @@ sections:
           position: right
           color: '#777777ff'
       - title: Project🖥️
-        content: 'If you're curious about my project?'
+        content: 'If you`re curious about my project?'
         align: right
         background:
           image:
@@ -35,7 +35,7 @@ sections:
           text: "project →"
           url: ../project/
       - title: I Like to..
-        content: 'If you're curious about my hobby?'
+        content: 'If you`re curious about my hobby?'
         align: right
         background:
           image:
