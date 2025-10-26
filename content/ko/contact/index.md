@@ -10,7 +10,10 @@ sections:
   - block: contact
     content:
       title: Contact
+        <img src="call.jpg" alt="call image" style="width:100%; max-width:800px; display:block; margin:20px auto;">
+       
       text: |- 
+            
             언제든지 편하게 연락주세요🤙📞
       email: 202422572@jbnu.ac.kr
       phone: 010-7703-3892
@@ -35,6 +38,8 @@ sections:
     
       # Automatically link email and phone or display as text?
       autolink: true
+
+       
    
     design:
       columns: '2'
@@ -50,9 +55,7 @@ sections:
           overlay:
             color: '#a5a5a5ff'      
             opacity: 0.5           
-    image:
-    filename: "call.jpg"
-    focal_point: "left"
+
     spacing:
         padding: ['20px', '0', '20px', '0']
         css_class: fullscreen

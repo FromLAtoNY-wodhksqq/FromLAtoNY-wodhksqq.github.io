@@ -108,11 +108,11 @@ features:
       category: ''
       category_id: ''
   search:
-    provider: wowchemy
+    provider: 최재완
     algolia:
       app_id: ''
       api_key: ''
-      index_name: ''
+      index_name: '전북대'
       show_logo: false
   map:
     provider: 'mapnik'
