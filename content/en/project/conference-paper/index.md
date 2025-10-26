@@ -1,5 +1,5 @@
 ---
-title: "Linux를 이용한 은행 계좌 조회 서비스 프로그램"
+title: "Bank Account Inquiry Service Program Using Linux"
 authors:
 - admin
 date: "2025-10-23T00:00:00Z"
@@ -18,8 +18,7 @@ publication: ""
 publication_short: ""
 
 # Summary. An optional shortened abstract.
-summary: 계좌 입출금 내역 관리
-
+summary: Manage account deposit and withdrawal history
 
 featured: true
 
@@ -57,8 +56,10 @@ image:
 
 ---
 
-제가 리눅스 환경에서 C 언어를 활용하여 계좌 입출금 내역 조회 서비스 프로그램을 개발했습니다. 이 프로그램은 사용자가 자신의 은행 계좌 정보를 안전하게 입력하면, 계좌의 입금, 출금 내역을 효율적으로 조회하고 관리할 수 있도록 설계되었습니다. 특히, 파일 입출력과 구조체를 활용하여 각 계좌의 거래 기록을 체계적으로 저장하고, 필요할 때 빠르게 검색할 수 있도록 구현했습니다. 또한, 프로그램은 사용자 친화적인 메뉴 시스템을 제공하여, 계좌 생성, 입금, 출금, 거래 내역 조회와 같은 주요 기능을 단계별로 선택할 수 있으며, 잘못된 입력이나 오류 상황도 적절히 처리할 수 있도록 안정성을 고려했습니다.
+I developed a bank account transaction inquiry service program using the C language in a Linux environment. This program allows users to securely input their bank account information and efficiently view and manage their deposit and withdrawal history.
 
-이 프로젝트를 통해 리눅스 환경에서의 시스템 프로그래밍, 파일 관리, 구조체 활용, 사용자 인터페이스 설계 등의 실무 경험을 쌓았으며, 데이터 관리와 보안 처리에 대한 이해도 한층 깊어졌습니다.
+In particular, it utilizes file input/output and structures (structs) to systematically store transaction records for each account and enables quick searches when needed. The program also provides a user-friendly menu system, allowing users to easily navigate through key functions such as account creation, deposits, withdrawals, and transaction history inquiries. It is designed with robust error handling to properly manage invalid inputs or unexpected situations.
+
+Through this project, I gained practical experience in system programming, file management, struct-based data handling, and user interface design within a Linux environment. Additionally, it deepened my understanding of data management and security handling in software development.
 
 ---
