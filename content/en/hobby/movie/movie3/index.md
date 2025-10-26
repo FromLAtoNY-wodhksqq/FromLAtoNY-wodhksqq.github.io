@@ -1,7 +1,7 @@
 ---
-title: "클래식"
+title: "classic"
 date: 2025-10-15
-summary: "한국영화 중 추천하고 싶은 영화 1위"
+summary: "The number one movie you want to recommend among Korean movies"
 featured: true
 
 image:
@@ -9,4 +9,4 @@ image:
   focal_point: "center"
 ---
 
-스토리, 연출, OST,조승우의 연기력까지 다방면에서 훌륭하다고 생각하는 영화. 한국인이라면 다 좋아할것같은 영화. 한국영화 중 추천하고 싶은 영화 1위.
+The story, direction, OST, and Cho Seung-woo's acting skills are all great in many ways. A movie that any Korean would like. The number one movie you want to recommend among Korean movies.
