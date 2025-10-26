@@ -50,9 +50,9 @@ sections:
           overlay:
             color: '#a5a5a5ff'      
             opacity: 0.5           
-      banner:
-        caption: ''
-        image: 'contact.jpg' 
+    image:
+    filename: "call.jpg"
+    focal_point: "left"
     spacing:
         padding: ['20px', '0', '20px', '0']
         css_class: fullscreen
