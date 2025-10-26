@@ -43,7 +43,7 @@ sections:
             filters:
               brightness: 0.5
           position: center
-          color: '#333'
+          color: 'rgba(159, 244, 255, 1)'
         link:
           text: "hobby →"
           url: ../hobby/
