@@ -24,12 +24,12 @@ sections:
         city: Jeonju
         region: Jeollabuk-do
         postcode: '54896'
-        country: 대한민국
+        country: South Korea
         country_code: KR
       coordinates:
         latitude: '35.84593210850605'
         longitude: '127.1344716216'
-      directions: 공과대학7호관
+      directions: Technical College No. 7
       office_hours:
              ALWAYS
       #contact_links:
